@@ -60,6 +60,9 @@
 		44CB53341DDB5892000A7B73 /* MCClassOne_fivwViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CB53331DDB5892000A7B73 /* MCClassOne_fivwViewController.m */; };
 		44CB53371DDB5AE5000A7B73 /* UIImage+ImageWaterPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CB53361DDB5AE5000A7B73 /* UIImage+ImageWaterPrint.m */; };
 		44CB533A1DDB5CF8000A7B73 /* MCClassOne_sixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CB53391DDB5CF8000A7B73 /* MCClassOne_sixViewController.m */; };
+		6A81829D204F7ABB00D8ACD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A818297204F7ABB00D8ACD8 /* ViewController.m */; };
+		6A81829E204F7ABB00D8ACD8 /* JWGifDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A818298204F7ABB00D8ACD8 /* JWGifDecoder.m */; };
+		6A81829F204F7ABB00D8ACD8 /* JWGifFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A818299204F7ABB00D8ACD8 /* JWGifFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,6 +173,12 @@
 		44CB53361DDB5AE5000A7B73 /* UIImage+ImageWaterPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWaterPrint.m"; sourceTree = "<group>"; };
 		44CB53381DDB5CF8000A7B73 /* MCClassOne_sixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCClassOne_sixViewController.h; sourceTree = "<group>"; };
 		44CB53391DDB5CF8000A7B73 /* MCClassOne_sixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCClassOne_sixViewController.m; sourceTree = "<group>"; };
+		6A818297204F7ABB00D8ACD8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A818298204F7ABB00D8ACD8 /* JWGifDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWGifDecoder.m; sourceTree = "<group>"; };
+		6A818299204F7ABB00D8ACD8 /* JWGifFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWGifFrame.m; sourceTree = "<group>"; };
+		6A81829A204F7ABB00D8ACD8 /* JWGifFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWGifFrame.h; sourceTree = "<group>"; };
+		6A81829B204F7ABB00D8ACD8 /* JWGifDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWGifDecoder.h; sourceTree = "<group>"; };
+		6A81829C204F7ABB00D8ACD8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -346,6 +355,7 @@
 		44CB529F1DD9B651000A7B73 /* All */ = {
 			isa = PBXGroup;
 			children = (
+				6A818296204F7ABB00D8ACD8 /* Git保存本地 */,
 				44CB52A01DD9B651000A7B73 /* Category */,
 				44CB52A11DD9B651000A7B73 /* Classes */,
 				44CB52C61DD9B651000A7B73 /* Vender */,
@@ -557,6 +567,19 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		6A818296204F7ABB00D8ACD8 /* Git保存本地 */ = {
+			isa = PBXGroup;
+			children = (
+				6A818297204F7ABB00D8ACD8 /* ViewController.m */,
+				6A818298204F7ABB00D8ACD8 /* JWGifDecoder.m */,
+				6A818299204F7ABB00D8ACD8 /* JWGifFrame.m */,
+				6A81829A204F7ABB00D8ACD8 /* JWGifFrame.h */,
+				6A81829B204F7ABB00D8ACD8 /* JWGifDecoder.h */,
+				6A81829C204F7ABB00D8ACD8 /* ViewController.h */,
+			);
+			path = "Git保存本地";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -689,8 +712,11 @@
 				44CB53091DDA0C54000A7B73 /* UIImage+ImageCut.m in Sources */,
 				44CB53311DDB579F000A7B73 /* UIView+ImageScreenShot.m in Sources */,
 				44CB52F31DD9B651000A7B73 /* MASViewConstraint.m in Sources */,
+				6A81829E204F7ABB00D8ACD8 /* JWGifDecoder.m in Sources */,
 				44CB52FD1DD9FDFC000A7B73 /* MCClassOne_oneViewController.m in Sources */,
 				44CB52E21DD9B651000A7B73 /* AppDelegate.m in Sources */,
+				6A81829F204F7ABB00D8ACD8 /* JWGifFrame.m in Sources */,
+				6A81829D204F7ABB00D8ACD8 /* ViewController.m in Sources */,
 				44CB53341DDB5892000A7B73 /* MCClassOne_fivwViewController.m in Sources */,
 				44C983121DDF5E270075A341 /* MCClassTwo_twoViewController.m in Sources */,
 				44CB52EC1DD9B651000A7B73 /* MCMainViewController.m in Sources */,
